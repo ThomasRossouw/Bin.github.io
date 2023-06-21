@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+ 
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" type="x-icon" href="favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="CSS/bootstrap/css/bootstrap.min.css">
+    <link href="CSS/fonts/circular-std/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/Clock.css">
+    <link rel="stylesheet" href="CSS/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="CSS/fonts/material-design-iconic-font/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="CSS/fonts/flag-icon-css/flag-icon.min.css">
+    <title>Clock In - BinBuddy</title>
+</head>
+
+<body>
+    <!-- ============================================================== -->
+    <!-- main wrapper -->
+    <!-- ============================================================== -->
+    <div class="dashboard-main-wrapper">
+        <!-- ============================================================== -->
+        <!-- navbar -->
+        <!-- ============================================================== -->
+        <div class="dashboard-header" >
+            <nav class="navbar navbar-expand-lg bg-white fixed-top" >
+                <a class="navbar-brand" href="home.html"><img src="Images/Bin-Buddy-Logo-ofb.png" width="150px"></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" ><i class="fas fa-user mr-2" style="color: #2f72a1; align-items: center;"></i>
+                    <span class="navbar-toggler-icon" ></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto navbar-right-top" >
+                        <li class="nav-item">
+                            <div id="custom-search" class="top-search-bar">
+                                <input class="form-control" type="text" placeholder="Search..">
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown notification">
+                            <a class="nav-link nav-icons" href="#" id="navbarDropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-fw fa-bell"></i> <span class="indicator"></span></a>
+                            <ul class="dropdown-menu dropdown-menu-right notification-dropdown">
+                                <li>
+                                    <div class="notification-title"> Notification</div>
+                                    <div class="notification-list">
+                                        <div class="list-group">
+                                            <a href="#" class="list-group-item list-group-item-action active">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user-img"><img src="Images/My project.png" alt="" class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-block"><span class="notification-list-user-name">John Smith</span>accepted your invitation to join the team.
+                                                        <div class="notification-date">57 min ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user-img"><img src="Images/My project.png" alt="" class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-block"><span class="notification-list-user-name">Michael Scott </span>requested to access an event.
+                                                        <div class="notification-date">5 days ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                            <a href="#" class="list-group-item list-group-item-action">
+                                                <div class="notification-info">
+                                                    <div class="notification-list-user-img"><img src="Images/My project.png" alt="" class="user-avatar-md rounded-circle"></div>
+                                                    <div class="notification-list-user-block"><span class="notification-list-user-name">Tony Stark</span> set a meeting with you.
+                                                        <div class="notification-date">2 weeks ago</div>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                         
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="list-footer"> <a href="#">View all notifications</a></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown connection">
+                            <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-fw fa-th"></i> </a>
+                            <ul class="dropdown-menu dropdown-menu-right connection-dropdown">
+                                <li class="connection-list">
+                                    <div class="row">
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="https://github.com/" target="_blank"  class="connection-item"><img src="Images/Github.png" alt=""> <span>Github</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="https://dribbble.com/" target="_blank" class="connection-item"><img src="Images/Dribble.png" alt="" > <span>Dribbble</span></a>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 ">
+                                            <a href="https://www.dropbox.com/official-teams-page?&_tk=paid_sem_goog_biz_b&_camp=1033325450&_kw=dropbox%7ce&_ad=650036281365%7c%7cc&gclid=EAIaIQobChMIgc-Y9aDQ_wIVC9btCh2ugwAREAAYASAAEgIupfD_BwE&gclsrc=aw.ds" target="_blank" class="connection-item"><img src="Images/Dropbox.png" alt="" > <span>Dropbox</span></a>
+                                        </div>
+                                    </div>    
+                                </li>
+                                <li>
+                                    <div class="conntection-footer"><a href="#">More</a></div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown nav-user">
+                            <a class="nav-link nav-user-img" href="#" id="navbarDropdownMenuLink2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="Images/My project.png" alt="" class="user-avatar-md rounded-circle"></a>
+                            <div class="dropdown-menu dropdown-menu-right nav-user-dropdown" aria-labelledby="navbarDropdownMenuLink2">
+                                <div class="nav-user-info">
+                                    <h5 class="mb-0 text-white nav-user-name">Your Name </h5>
+                                    <span class="status"></span><span class="ml-2">Availabliblity</span>
+                                </div>
+                                <a class="dropdown-item" href="#"><i class="fas fa-user mr-2"></i>Account</a>
+                                <a class="dropdown-item" href="#"><i class="fas fa-cog mr-2"></i>Setting</a>
+                                <a class="dropdown-item" href="index.html"><i class="fas fa-power-off mr-2"></i>Logout</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- ============================================================== -->
+        <!-- end navbar -->
+        <!-- ============================================================== -->
+        <!-- ============================================================== -->
+        <!-- left sidebar -->
+        <!-- ============================================================== -->
+        <br/>
+        <div class="nav-left-sidebar sidebar-dark">
+            <div class="menu-list">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="d-xl-none d-lg-none" href="home.html">Dashboard</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav flex-column">
+                            <li class="nav-divider">
+                             
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link active" href="home.html"><i class="fa fa-fw fa-user-circle"></i>Dashboard </a>
+                              
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Requests.html"><i class="fa fa-fw fa-envelope"></i>Requests</a>
+                       
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fa fa-fw fa-book"></i>Code of Conduct</a>
+                       
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Calendar.html"><i class="fa fa-fw fa-calendar"></i>Calendar</a>
+                       
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Clock.html"><i class="fa fa-fw fa-clock"></i>Clock In</a>
+                       
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- ============================================================== -->
+        <!-- end left sidebar -->
+        <!-- ============================================================== -->
+ <!-- ============================================================== -->
+        <!-- wrapper  -->
+        <!-- ============================================================== -->
+        <div class="dashboard-wrapper">
+            <div class="dashboard-ecommerce">
+                <div class="container-fluid dashboard-content ">
+                    <div class="ecommerce-widget">
+<div style="margin-left: auto;">
+                        <header class="RealTime">
+                            <h1 id="CurrentTime"></h1>
+                            <h2 id="CurrentDate"></h2>
+                        </header>
+                        <br/>
+                        <section id="Home" class="Content">
+                            <button type="button" id="StartWork" class="Mainbtn" >Start Work</button><br/>
+                            <button type="button" id="StartMeal" class="Mainbtn">Start Lunch</button><br/>
+                            <button type="button" id="EndMeal" class="Mainbtn">End Lunch</button><br/>
+                            <button type="button" id="EndWork" class="Mainbtn">End Work</button><br/>
+                            <button type="button" id="Info" class="Mainbtn">Summary</button>
+                        </section>
+                        <br/>  <br/>
+                        <h2 id="Message"></h2>
+                    
+                     <aside>
+                    
+                        <ul id="GetInfo">
+                           
+                        </ul>
+                    
+                     </aside>
+                    
+</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jquery 3.3.1 -->
+    <script src="CSS/jquery/jquery-3.3.1.min.js"></script>
+    <!-- bootstap bundle js -->
+    <script src="CSS/bootstrap/js/bootstrap.bundle.js"></script>
+    <!-- main js -->
+    <script src="JS/main-js.js"></script>
+ 
+ 
+
+
+    <script src="JS/dashboard-ecommerce.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="JS/Clock.js"></script>
+
+</body>
+
+</html>
